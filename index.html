@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>21 Number Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>21 Number Game</h1>
+      <div class="controls">
+        <select id="mode">
+          <option value="pvp">Player vs Player</option>
+          <option value="pvc-rand">Player vs Computer (Random)</option>
+          <option value="pvc-smart" selected>Player vs Computer (Smart AI)</option>
+        </select>
+        <button id="start" class="primary">Start</button>
+        <button id="reset" class="ghost" disabled>Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="status">
+        <div class="turn-pill">Turn: <strong id="turn">—</strong></div>
+        <div class="total" id="total">0</div>
+        <div class="buttons">
+          <button data-val="1" disabled>+1</button>
+          <button data-val="2" disabled>+2</button>
+          <button data-val="3" disabled>+3</button>
+        </div>
+      </section>
+
+      <section class="log-panel">
+        <h2>Game Log</h2>
+        <div id="log" class="log"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Confetti library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
