@@ -39,4 +39,3 @@ Check it out live: [GitHub game link](https://kenley-735.github.io/21-Number-Gam
 
 ---
 
-## 📂 Folder Structure
