@@ -5,7 +5,7 @@ Take turns adding **1, 2, or 3** to a running total — the player who reaches *
 ---
 
 ## 🎮 Live Demo
-Check it out live: [GitHub game link](https://Kenley-735github.io/21-number-game/)
+Check it out live: [GitHub game link](https://kenley-735.github.io/21-Number-Game/)
 
 ---
 
